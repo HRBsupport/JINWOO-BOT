@@ -15,38 +15,38 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //=================================================//
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'Jinwoo-Bot:~5twgQLCQ#GBagAObdk92UtMSo3OpNBiim2PD3WTwDOamK6oVngUE' 
 //Enter your Xploader session id here; must start with Jinwoo-Bot:~
 
 //=================================================//
-global.botname = process.env.BOT_NAME || 'ᎫᏆΝᏔϴϴ ᏴϴͲ' 
+global.botname = process.env.BOT_NAME || 'HonorsBot' 
 //Your desired bot name
 
 //=================================================//
-global.ownernumber = process.env.OWNER_NUMBER || '263714757857' 
+global.ownernumber = process.env.OWNER_NUMBER || '62838818407' 
 //Type your main number here
 
 //=================================================//
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['263780934873', '263780166288'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split('62838818407') : ['', ''];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //=================================================//
-global.ownername = process.env.OWNER_NAME || 'Malvin' 
+global.ownername = process.env.OWNER_NAME || 'ZERO' 
 //Type your name here
 
 //=================================================//
-global.plink = process.env.PLINK || "https://www.instagram.com/techlord01?igsh=OHB3b3BqMjZpMjdy=="
+global.plink = process.env.PLINK || "https://Instagram.com/tmp_mingyu"
 
 //=================================================//
-global.wm = process.env.GL_WM || "©ᎫᏆΝᏔϴϴ ᗷOT"
+global.wm = process.env.GL_WM || "©HonorsBot"
 
 //=================================================//
-global.packname = process.env.STICKER_PACK_NAME || "ᎫᏆΝ" 
+global.packname = process.env.STICKER_PACK_NAME || "Honors" 
 //The sticker pack name
 
 //=================================================//
-global.author = process.env.STICKER_AUTHOR_NAME || "ᗷOT" 
+global.author = process.env.STICKER_AUTHOR_NAME || "Bot" 
 //The sticker author name
 
 //=================================================//
@@ -92,7 +92,7 @@ global.mess = {
   limit: '*Your limit is used up!*', 
   done: '*Done*', 
   error: '*Sorry, I cannot perform that action!*', 
-  success: '*©ᎫᏆΝᏔϴϴ*', 
+  success: '*©HonorsBot*', 
   owner: '*Apologies, only my owner can use this command!*', 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
